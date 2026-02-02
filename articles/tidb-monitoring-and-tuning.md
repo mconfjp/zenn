@@ -32,10 +32,10 @@ https://zenn.dev/levtech/articles/08e2830ba2e069
 
 # TiDB Cloud Clinicを触ってみよう！
 ![](https://storage.googleapis.com/zenn-user-upload/7a2060a73b05-20260203.png)
-
+*トップ画面はこちら。ざっくりメトリクスと４つの機能が出ています*
 
 ## メトリクス
-![](https://storage.googleapis.com/zenn-user-upload/0db622f00551-20260203.png =200x)
+![](https://storage.googleapis.com/zenn-user-upload/0db622f00551-20260203.png)
 まずはメトリクスです。これはその通りメトリクスで、さまざまな指標を見ることができます。[公式ドキュメント](https://docs.pingcap.com/tidbcloud/tidb-cloud-clinic/#monitor-advanced-metrics)では見れる指標の種類が紹介されていますが、パッとタイトルを見るだけだとなにが見れるかわかりません。以下にもりたが中身をみてこんな感じかなと思ったものを置いておきます。
 
 | 種別                    | 中身                                                               | 備考              |
@@ -60,18 +60,18 @@ https://zenn.dev/levtech/articles/08e2830ba2e069
 内部構造しらないと分かんないもかく
 
 ## スロークエリ
-![](https://storage.googleapis.com/zenn-user-upload/5f3c61342260-20260203.png =200x)
+![](https://storage.googleapis.com/zenn-user-upload/5f3c61342260-20260203.png)
 これは単純なスロークエリ一覧^[300ms以上が対象で固定らしいです]です。
 最大２週間を遡り、どんなスロークエリが出ていたか見ることができます。クエリごとに表示される項目はpt-query-digestと同じ^[たぶん]であり、MySQLでスロークエリを見ていた人間にとってはとっつきやすいものでした。
 AWS Auroraではこのダイジェスト情報は自分で出さないといけなかったため、地味に助かると思います。
 
 ## TOP SQL
-![](https://storage.googleapis.com/zenn-user-upload/76378f772659-20260203.png =200x)
+![](https://storage.googleapis.com/zenn-user-upload/76378f772659-20260203.png)
 AWS AuroraのDatabase InsightsにあるTOP SQLと似たものです。表示はTiDBノードとTiKVノードごとに表示でき、２週間強遡ることができます。
 Database Insightsでは負荷の種類や程度も見ることができましたが、こちらは単純にどのクエリがどれくらいの時間流れているかを出すだけです。そのため、Database InsightsのAASのような、パッと見て負荷がわかる状態ではありません。このページを見るだけで問題があるかどうかを知ることはできないようです。
 
 ## ベンチマークレポート
-![](https://storage.googleapis.com/zenn-user-upload/2742d58a2bab-20260203.png =200x)
+![](https://storage.googleapis.com/zenn-user-upload/2742d58a2bab-20260203.png)
 こちらはAWS Auroraには全くない機能で、その名の通りベンチマークのレポートを出してくれます。過去７日間を遡ることができ、期間を指定することで詳細なレポートを出力可能です。
 障害が発生した際に問題がどこにあったのかなど調査に使える...？　と思いつつ、疑問なのはこのレポートがどのように出力されるのかという問題。具体的にはこのベンチマークレポートを出す際にDBに負荷がかかっているのか？　が気になりました。この点が分からないと気軽に出力できないので、公式ドキュメントなどで教えて欲しいなと思っています。
 
