@@ -32,7 +32,7 @@ https://zenn.dev/levtech/articles/08e2830ba2e069
 
 # TiDB Cloud Clinicを触ってみよう！
 ![](https://storage.googleapis.com/zenn-user-upload/7a2060a73b05-20260203.png)
-*トップ画面はこちら。ざっくりメトリクスと４つの機能が出ています*
+*トップ画面はこちら。ざっくりメトリクスと４つの機能が出ています。適宜ぼやかしつつお見せしていきます*
 
 ## メトリクス
 ![](https://storage.googleapis.com/zenn-user-upload/0db622f00551-20260203.png)
