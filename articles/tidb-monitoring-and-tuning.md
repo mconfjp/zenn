@@ -7,7 +7,7 @@ topics:
   - TiDB
 published: true
 publication_name: levtech
-published_at: 2026-2-6 11:45
+published_at: 2026-02-06 11:45
 ---
 ## これはなに
 こんにちは、レバテック開発部のもりたです。
