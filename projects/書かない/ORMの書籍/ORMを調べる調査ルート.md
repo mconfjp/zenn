@@ -50,3 +50,5 @@ links:
 # メモ
 https://dbflute.seasar.org/
 あわっちさんが教えてくれた国産ORM
+
+https://zenn.dev/nxted_sapporo/articles/a1477205db119f
