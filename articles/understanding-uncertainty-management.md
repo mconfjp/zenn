@@ -112,3 +112,5 @@ https://zenn.dev/levtech/articles/ill-be-back-by-christmas
 
 ## 参考文献
 - [リスクと不確実性の違い：Risk and uncertainty](https://www.a-output.com/risk-and-uncertainty)
+- [エンジニアリング組織論への招待](https://gihyo.jp/book/2018/978-4-7741-9605-3)
+	- 副題が「不確実性に向き合う思考と組織のリファクタリング」。IT分野で不確実性について言及されるときはこの書籍での定義や論調が前提とされやすい
