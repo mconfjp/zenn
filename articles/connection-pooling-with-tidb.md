@@ -34,7 +34,9 @@ publication_name: levtech
 [^orm-pool-settings]: 代表的な ORM の設定方式は大きく3パターンに分類でき、次のとおり。①URLクエリパラメータ方式：Prisma v6 以前で使われていた。データベースとの接続URLに`?connection_limit=10&pool_timeout=10`というような形でクエリパラメータを付与し、prisma側に接続URLが渡ったタイミングでこれを読み取り処理する形式。　②設定オブジェクト方式：SQLAlchemy・TypeORMなどで採用。初期化時に設定ファイルからオブジェクトで渡す。　③メソッドチェーン方式：GORMなどで採用。接続後に `db.DB()` 経由で `SetMaxOpenConns()` 等を呼ぶ。
 
 また、このコネクションプールについては以下の動画がとてもわかりやすくて最高です。
-https://youtu.be/ZdGts4VfZAE?si=i8EnbvsmtwKx8_e5 [^mu-zaru-channel]
+https://youtu.be/ZdGts4VfZAE?si=i8EnbvsmtwKx8_e5 
+
+[^mu-zaru-channel]
 
 [^mu-zaru-channel]: ムーザルちゃんねるの動画です。だいすき。
 ## どんな問題が起きるか
