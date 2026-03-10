@@ -5,6 +5,7 @@ type: "tech"
 topics: ["tidb", "database", "connectionpool", "ecs"]
 published: false
 publication_name: levtech
+published_at: 2026-3-13 11:45
 ---
 ## これはなに
 こんにちは！　レバテック開発部のもりたです。
