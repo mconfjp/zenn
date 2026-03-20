@@ -7,7 +7,6 @@ topics:
   - database
   - metrics
 published: false
-published_at: 2026-03-27 11:45
 publication_name: levtech
 ---
 ## これはなに
