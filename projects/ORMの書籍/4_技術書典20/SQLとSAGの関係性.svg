@@ -15,9 +15,10 @@
   <text font-size="12" x="170" y="93" text-anchor="middle" fill="#185FA5">SQL-86 → SQL-89 → SQL-92...</text>
 
   <!-- embedded SQL言語対応 -->
-  <rect x="50" y="130" width="240" height="44" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
-  <text font-size="14" font-weight="500" x="170" y="148" text-anchor="middle" fill="#444441">embedded SQL 言語対応</text>
-  <text font-size="11" x="170" y="164" text-anchor="middle" fill="#5F5E5A">COBOL / FORTRAN / Pascal / PL/I → +Ada / C (SQL-89)</text>
+  <rect x="50" y="130" width="240" height="58" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+  <text font-size="14" font-weight="500" x="170" y="150" text-anchor="middle" fill="#444441">embedded SQL 言語対応</text>
+  <text font-size="11" x="170" y="166" text-anchor="middle" fill="#5F5E5A">COBOL / FORTRAN / Pascal / PL/I</text>
+  <text font-size="11" x="170" y="180" text-anchor="middle" fill="#5F5E5A">→ +Ada / C (SQL-89)</text>
   <line x1="170" y1="106" x2="170" y2="130" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- SAG 背景 -->
@@ -27,7 +28,7 @@
   <!-- SQL Access Group -->
   <rect x="390" y="50" width="240" height="56" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5"/>
   <text font-size="14" font-weight="500" x="510" y="75" text-anchor="middle" fill="#085041">SQL Access Group</text>
-  <text font-size="12" x="510" y="93" text-anchor="middle" fill="#0F6E56">1989年設立 Oracle・Informix・HP・DEC他</text>
+  <text font-size="12" x="510" y="93" text-anchor="middle" fill="#0F6E56">1989年設立 Oracle・Informix・HP他</text>
 
   <!-- SAG CLI -->
   <rect x="390" y="130" width="240" height="44" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5"/>
