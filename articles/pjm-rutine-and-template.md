@@ -5,7 +5,7 @@ type: idea
 topics:
   - 不確実性
   - プロジェクトマネジメント
-published: false
+published: true
 publication_name: levtech
 ---
 ## これはなに
