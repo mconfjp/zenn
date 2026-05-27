@@ -77,7 +77,7 @@ https://zenn.dev/levtech/articles/mach-auch-zettelkasten
 スキルです。コピペします。
 
 - SKILL.md
-```markdown
+````markdown
 ---
 name: webclip-processor
 description: ObsidianのWebClip記事を処理し、要約ノートを作成するスキル（英語記事は日本語翻訳も行う）
@@ -125,7 +125,7 @@ allowed-tools: Read, Glob, Bash, Write, AskUserQuestion
    - ファイル：`{「Webclip置き場」フォルダ}/『{タイトル}』要約.md`
    - 英語記事の場合は以下のフォーマットで作成する：
 
-/```
+```
 ---
 status: unread
 ---
@@ -139,11 +139,11 @@ status: unread
 
 # 要約
 （記事の内容を日本語で要約。重要な論点・事実・主張を網羅する）
-/```
+```
 
    - 日本語記事の場合は以下のフォーマットで作成する（翻訳リンクなし）：
 
-/```
+```
 ---
 status: unread
 ---
@@ -156,7 +156,7 @@ status: unread
 
 # 要約
 （記事の内容を日本語で要約。重要な論点・事実・主張を網羅する）
-/```
+```
 
 6. **ファイルを移動する**
    - Bashで `mv` を使い、`{「Webclip置き場」フォルダ}/` から `{「資料置き場」フォルダ}/` に移動する
@@ -166,9 +166,9 @@ status: unread
 7. **完了を報告する**
    - 作成・移動したファイルのパスを列挙して報告する
 
-```
+````
 guidline.md
-```markdown
+````markdown
 # webclip-processor ガイドライン
 
 ## 対象フォルダ
@@ -234,14 +234,14 @@ guidline.md
 - すべてのパスは `{リポジトリルート}/` を起点とする相対パスで管理する
 - Obsidianのリンクは `[[ファイル名]]` 形式（拡張子なし）で記述する
 
-```
+````
 
 :::
 
 :::details Claudeと一緒に読むスキル
 #### Claudeと一緒に読むスキル
 SKILL.md
-```markdown
+````markdown
 ---
 name: claude-read
 description: 資料を一緒に読むスキル。webclip-processor で作成した翻訳・要約ノートや {「資料置き場」フォルダ} 内の資料ファイルを対象に「選択 → 読書 → 理解 → 確認テスト → 感想ノート → 読了」の学習セッションを Claude と一緒に実施する。「一緒に読もう」「この資料を読む」「claude-read」「資料を読みたい」「クリップを読む」など、資料を読む作業を始めるときは必ずこのスキルを使う。
@@ -334,7 +334,7 @@ allowed-tools: Read, Glob, Bash, Write, Edit, AskUserQuestion
 
 **感想ノートのフォーマット**（`{「資料置き場」フォルダ}/YYYY.M.D_『タイトル』感想.md`）：
 
-/```markdown
+```markdown
 ---
 title: 『タイトル』感想
 date: YYYY.M.D
@@ -349,7 +349,7 @@ links:
 ## Claude先生より
 
 （Claude が補足・コメントを加える場合のみ。なければ省略。赤ペン先生スタイルで書く）
-/```
+```
 
 4. **要約ノートへの逆リンクを追記する**（双方向リンクのため）：
    - 要約.md を選択した場合: `## 関連ファイル` セクションに `[[YYYY.M.D_『タイトル』感想]]` を追加
@@ -380,7 +380,7 @@ links:
 - **status 更新は各フェーズの開始時**に行う：途中離脱しても resume できるよう状態を保持する
 - **感想はユーザーの言葉で**：Claude が感想を代筆するのではなく、ユーザーから聞いた言葉をまとめる
 
-```
+````
 
 :::
 ## やってよかったこと
