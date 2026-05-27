@@ -6,7 +6,8 @@ topics:
   - claude
   - obsidian
   - 生産性
-published: false
+published: true
+published_at: 2026-06-05 11:45
 publication_name: levtech
 ---
 ## これはなに
