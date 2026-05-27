@@ -167,7 +167,7 @@ status: unread
    - 作成・移動したファイルのパスを列挙して報告する
 
 ````
-guidline.md
+guidelines.md
 ````markdown
 # webclip-processor ガイドライン
 
