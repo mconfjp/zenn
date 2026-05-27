@@ -79,7 +79,7 @@ https://zenn.dev/levtech/articles/mach-auch-zettelkasten
 - SKILL.md
 ```markdown
 ---
-name: Webwebclip-processoror
+name: webclip-processor
 description: ObsidianのWebClip記事を処理し、要約ノートを作成するスキル（英語記事は日本語翻訳も行う）
 allowed-tools: Read, Glob, Bash, Write, AskUserQuestion
 ---
