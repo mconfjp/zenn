@@ -3,6 +3,7 @@ title: SoftwareDesign連載原稿_vol.1
 emoji: 🌊
 type:
 topics:
+publication_name: "levtech"
 published: false
 ---
 
