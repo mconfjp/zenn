@@ -1,5 +1,5 @@
 ---
-title: 大量データロードをORMはいかに攻略するか？
+title: SoftwareDesign連載原稿_vol.2_大量データロードをORMはいかに攻略するか？
 emoji: 💰
 type: tech
 topics:
