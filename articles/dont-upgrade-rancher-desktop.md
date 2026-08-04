@@ -34,7 +34,7 @@ published: false
 
 ### 機械語の変換
 前提の前提になりますが、プログラムのコードは実行前に機械語に変換されCPUによって実行されます。この機械語はどのCPUでも共通のものが使えるわけではなく、CPUのアーキテクチャによって命令の種類が異なります。
-以下は例。
+以下はイメージ。
 
 ```
 x86_64（Intel/AMD）の命令
@@ -71,7 +71,7 @@ arm64（Apple Silicon）の命令
 :::
 
 ### 変換が必要なケース
-で、わたしのローカル環境で利用していたDocker FileはLinux x86_64を指定していました。
+で、わたしのローカル環境で利用していたDockerfileはLinux x86_64を指定していました。
 
 ```dockerfile
 FROM --platform=linux/x86_64 amazonlinux:2023
@@ -117,8 +117,8 @@ Rosettaのエラーです。変換の箇所でおかしなことが起きてい�
 参考Issue（未解決）: https://github.com/lima-vm/lima/issues/3592
 
 要点は以下です。
-- **AT_MINSIGSTKSZ**（auxiliary vector type 29）はLinux kernel 5.11で追加された情報で、プロセス起動時にカーネル^[今回だとVM直下のAlpine Linuxのカーネルを指す]が「シグナル処理に必要な最小スタックサイズ」をRosettaに渡す
-- ただ、Linux kernel 6.13以降では、macOS 15.xのRosettaが上記の**AT_MINSIGSTKSZ**（auxiliary vector type 29）を変換できずクラッシュするようになった
+- **AT_HWCAP3**(auxiliary vector type 29) はLinux kernel 6.13で追加された情報で、プロセス起動時にカーネル^[今回だとVM直下のAlpine Linuxのカーネルを指す]がkernelの機能情報をRosettaに渡す
+- ただ、macOS 15.xのRosettaが上記の **auxiliary vector type 29** を変換できずクラッシュするようになった
 - Factory ResetしたらVMのAlpine Linuxのバージョンが上がり、その信号をRosettaが理解できていないっぽい
 
 ## 解決方法
