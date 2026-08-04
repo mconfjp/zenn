@@ -1,5 +1,5 @@
 ---
-title: MacでRancherDesktop使ってたらunhandled auxillary vector type 29でDockerが起動しない
+title: macOS 15系でRancherDesktop使ってたらDockerが起動しなくなった
 emoji: 🍕
 type: tech
 topics:
