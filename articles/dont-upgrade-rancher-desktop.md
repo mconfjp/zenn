@@ -119,7 +119,7 @@ Rosettaのエラーです。変換の箇所でおかしなことが起きてい�
 要点は以下です。
 - **AT_MINSIGSTKSZ**（auxiliary vector type 29）はLinux kernel 5.11で追加された情報で、プロセス起動時にカーネル^[今回だとVM直下のAlpine Linuxのカーネルを指す]が「シグナル処理に必要な最小スタックサイズ」をRosettaに渡す
 - ただ、Linux kernel 6.13以降では、macOS 15.xのRosettaが上記の**AT_MINSIGSTKSZ**（auxiliary vector type 29）を変換できずクラッシュするようになった
-- 要するにVMのAlpine Linuxの信号をRosettaが理解できてない
+- Factory ResetしたらVMのAlpine Linuxのバージョンが上がり、その信号をRosettaが理解できていないっぽい
 
 ## 解決方法
 
