@@ -7,7 +7,8 @@ topics:
   - macos
   - rosetta
 publication_name: "levtech"
-published: false
+published: true
+published_at: 2026-8-10 11:45
 
 ---
 ## これはなに
