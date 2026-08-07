@@ -8,7 +8,7 @@ topics:
   - rosetta
 publication_name: "levtech"
 published: true
-published_at: 2026-8-10 11:45
+published_at: 2026-08-10 11:45
 
 ---
 ## これはなに
