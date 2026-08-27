@@ -5,7 +5,6 @@ type: tech
 topics:
   - ORM
 published: false
-published_at:
 publication_name: levtech
 ---
 
