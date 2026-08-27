@@ -1,5 +1,5 @@
 ---
-title: ORMはいかにビジネストランザクションの問題と向き合ったか？
+title: SoftwareDesign連載原稿_vol3_ORMはいかにビジネストランザクションの問題と向き合ったか？
 emoji: 📑
 type: tech
 topics:
