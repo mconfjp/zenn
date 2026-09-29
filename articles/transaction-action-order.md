@@ -1,6 +1,6 @@
 ---
 title: ３分で読めるトランザクション設計のコツ
-emoji: 🧾
+emoji: ㊙️
 type: tech
 topics:
   - database
@@ -19,7 +19,7 @@ published_at: 2026-09-29 11:45
 これについて、簡単な指針があるという話をします。
 
 ## 課題：トランザクション処理の順番がわからん
-![](https://static.zenn.studio/user-upload/91fca1376707-20260929.png)
+![](https://static.zenn.studio/user-upload/91fca1376707-20260929.png =80%)
 トランザクション処理を書いていると、こういう場面に出会います。
 
 - 外部サービスとの連携があって、どこで失敗したらどうなるかを考えないといけない
