@@ -20,6 +20,7 @@ publication_name: levtech
 - Bookathonへの参加
 	- 元々、技術書を出版したいという気持ちがあり、技術同人誌を作っていた
 		- こういうのとか
+			- https://techbookfest.org/product/6yyXshtFctb3aWkQeDzEYP?productVariantID=j1hqftVaHN7C7UiGF4Gbut
 	- 何かチャンスがあったら企画を持ち込んで出版したいな〜〜と思っていたところに、以下のようなイベントがあると知った
 		- https://tech-book-cat.connpass.com/event/380787/
 			- 本を書くハッカソンイベントと銘打たれている通り、３日間で技術同人誌を作るイベント。その中でさまざまな人に意見をもら得るのだが、メンターに出版社の編集さんも含まれており、このイベントに出て企画を見てもらったら出版できるかもしれんなと思って参加した
