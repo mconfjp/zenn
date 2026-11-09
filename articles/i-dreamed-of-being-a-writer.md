@@ -5,7 +5,7 @@ type: idea
 topics:
   - アウトプット
 published: true
-published_at: 2026-11-18 11:45
+published_at: 2026-11-13 11:45
 ---
 ## これはなに
 こんにちは、もりたです。
