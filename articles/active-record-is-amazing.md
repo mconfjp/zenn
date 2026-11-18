@@ -8,7 +8,6 @@ topics:
   - Ruby on Rails
 published: true
 published_at: 2026-11-19 11:45
-publication_name: levtech
 ---
 ## これはなに
 こんにちは、もりたです。
