@@ -33,6 +33,7 @@ https://gihyo.jp/magazine/SD/archive/2026/202612
 | 2001年  | OSS製ORMのHibernateが広く普及                                         |
 | 2002年  | マーチン・ファウラーが『Patterns of Enterprise Application Architecture』を出版 |
 | 2004年  | DHHがRuby on RailsのORMとしてActiveRecordを公開                        |
+
 ActiveRecord登場までのORMに関する主要なトピックを上記にまとめました。
 
 まずは1990年代から話を始めましょう。当時はOOPやRDBといった現代のWeb開発における鉄板と言えるアーキテクチャが揃い始めた時代でした。しかし、OOPとRDBでは扱うデータ形式が異なり^[専門的な言葉ではインピーダンスミスマッチと呼びます。OOPはJSONのような構造でデータを表現し、RDBは二次元テーブルでデータを表現するそのギャップのことを指します。他にも様々なミスマッチが存在しますが、そういった変換が問題となりました]、それを解消する必要が出てきます。
